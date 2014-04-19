@@ -19,15 +19,16 @@
         <span class="icon-bar"></span>
       </a>
  
-      <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">LUDES</a>
+      <!-- Be sure to leave the brand out there if you want it shown -->      
+      <%= link_to 'LUDES', root_path, :class => 'brand' %>
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
         <ul class="nav">
           <li>
-            <a href="#">Link 1</a>
+      <%= link_to 'APP', posts_path %>
+
           </li>
           <li>
             <a href="#">Link 2</a>
