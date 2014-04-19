@@ -1,0 +1,11 @@
+<% @posts.each do |post| %>
+  <div class="private-square span4">
+    <h1>
+      <%= post.title %>  
+    </h1>
+    
+    <p>
+        <%= post.description %>
+    </p>
+  </div>
+<% end %>
